@@ -8,21 +8,23 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Spring Boot 使用SpringBoot官方示例创建工程(三) | Jeff的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="除了使用Maven去创建一个SpringBoot的项目，我们还可以使用SpringBoot官方为我们提供的示例工程创建新的SpringBoot项目。  创建新的模块，并选择Spring Initializr。 编辑模块的信息 选择此模块需要的依赖">
+  <meta name="description" content="除了使用Maven去创建一个SpringBoot的项目，我们还可以使用SpringBoot官方为我们提供的示例工程创建新的SpringBoot项目。 创建步骤 创建新的模块，并选择Spring Initializr。 编辑模块的信息 选择此模块需要的依赖 选择项目报错的位置  项目结构当使用SpringBoot官方的项目创建完后，具体的目录架构如下所示 如图所示项目的包以及配置文件(applica">
 <meta name="keywords" content="Spring Boot">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Spring Boot 使用SpringBoot官方示例创建工程(三)">
 <meta property="og:url" content="http://yoursite.com/2019/06/17/SpringBoot-学习总结3/index.html">
 <meta property="og:site_name" content="Jeff的博客">
-<meta property="og:description" content="除了使用Maven去创建一个SpringBoot的项目，我们还可以使用SpringBoot官方为我们提供的示例工程创建新的SpringBoot项目。  创建新的模块，并选择Spring Initializr。 编辑模块的信息 选择此模块需要的依赖">
+<meta property="og:description" content="除了使用Maven去创建一个SpringBoot的项目，我们还可以使用SpringBoot官方为我们提供的示例工程创建新的SpringBoot项目。 创建步骤 创建新的模块，并选择Spring Initializr。 编辑模块的信息 选择此模块需要的依赖 选择项目报错的位置  项目结构当使用SpringBoot官方的项目创建完后，具体的目录架构如下所示 如图所示项目的包以及配置文件(applica">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/.com//SpringBoot_3_step1.png">
 <meta property="og:image" content="http://yoursite.com/.com//SpringBoot_3_step2.png">
-<meta property="og:image" content="http://yoursite.com/.com//SpringBoot_3_step2.png">
-<meta property="og:updated_time" content="2019-06-17T02:25:06.572Z">
+<meta property="og:image" content="http://yoursite.com/.com//SpringBoot_3_step3.png">
+<meta property="og:image" content="http://yoursite.com/.com//SpringBoot_3_step4.png">
+<meta property="og:image" content="http://yoursite.com/.com//SpringBoot_3_step5.png">
+<meta property="og:updated_time" content="2019-06-17T02:47:53.629Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Spring Boot 使用SpringBoot官方示例创建工程(三)">
-<meta name="twitter:description" content="除了使用Maven去创建一个SpringBoot的项目，我们还可以使用SpringBoot官方为我们提供的示例工程创建新的SpringBoot项目。  创建新的模块，并选择Spring Initializr。 编辑模块的信息 选择此模块需要的依赖">
+<meta name="twitter:description" content="除了使用Maven去创建一个SpringBoot的项目，我们还可以使用SpringBoot官方为我们提供的示例工程创建新的SpringBoot项目。 创建步骤 创建新的模块，并选择Spring Initializr。 编辑模块的信息 选择此模块需要的依赖 选择项目报错的位置  项目结构当使用SpringBoot官方的项目创建完后，具体的目录架构如下所示 如图所示项目的包以及配置文件(applica">
 <meta name="twitter:image" content="http://yoursite.com/.com//SpringBoot_3_step1.png">
   
   
@@ -194,11 +196,14 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>除了使用Maven去创建一个SpringBoot的项目，我们还可以使用SpringBoot官方为我们提供的示例工程创建新的SpringBoot项目。</p>
-<ol>
+<h2 id="创建步骤"><a href="#创建步骤" class="headerlink" title="创建步骤"></a>创建步骤</h2><ol>
 <li>创建新的模块，并选择Spring Initializr。<br><img src="/.com//SpringBoot_3_step1.png" alt="创建新的模块，并选择Spring Initializr"></li>
 <li>编辑模块的信息<br><img src="/.com//SpringBoot_3_step2.png" alt="编辑模块的信息"></li>
-<li>选择此模块需要的依赖<br><img src="/.com//SpringBoot_3_step2.png" alt="选择此模块需要的依赖"></li>
+<li>选择此模块需要的依赖<br><img src="/.com//SpringBoot_3_step3.png" alt="选择此模块需要的依赖"></li>
+<li>选择项目报错的位置<br><img src="/.com//SpringBoot_3_step4.png" alt="选择此模块需要的依赖"></li>
 </ol>
+<h2 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h2><p>当使用SpringBoot官方的项目创建完后，具体的目录架构如下所示<br><img src="/.com//SpringBoot_3_step5.png" alt></p>
+<p>如图所示项目的包以及配置文件(application.properties)都已经创建好了,同时也创建了对应的gitignore文件，其中有一些文件不是必须的可以暂时先删除掉，根据需要再添加。如果仔细查看对应的pom文件不难发现其中上篇我们手动添加的依赖已经被添加进来了。下面我们只需要关系自己业务的实现就可以了。</p>
 
       
 
